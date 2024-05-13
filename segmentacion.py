@@ -62,7 +62,7 @@ def method_otsu():
     plt.imshow(otsu_img, cmap='gray')
     plt.show()
 
-def clusters(k=15, distance=False):
+def clusters(k=3, distance=False):
   print('Segmentar imagen por método de clusters')
   # Leemos la imagen en RGB
   img = plt.imread(IMAGE)
